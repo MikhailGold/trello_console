@@ -2,12 +2,12 @@ import requests
 import sys
 # Данные авторизации в API Trello  
 auth_params = {    
-    'key': "1f05c30b79b69de3450fb54c164263c4",    
-    'token': "24af2273867a7920b6ed9cca110817cc083e130765d6b14ae0ab0f9c253c9189", }  
+    'key': "Enter your key !!!",    
+    'token': "Enter your token !!!", }  
   
 # Адрес, на котором расположен API Trello, # Именно туда мы будем отправлять HTTP запросы.  
 base_url = "https://api.trello.com/1/{}"  
-board_id="5e778def7d555d1f26cd7710"
+board_id="Enter your board_d !!!!"
 
 def read():
     print("\n--====== Task list: ======--\n")
